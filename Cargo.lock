@@ -112,7 +112,7 @@ dependencies = [
 
 [[package]]
 name = "dace"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "cmake",
  "impl_ops",

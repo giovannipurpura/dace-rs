@@ -15,7 +15,7 @@
 //! Add this to your `Cargo.toml`:
 //!
 //! ```toml
-//! [build-dependencies]
+//! [dependencies]
 //! dace = "0.1"
 //! ```
 //!

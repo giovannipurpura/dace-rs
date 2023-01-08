@@ -17,7 +17,7 @@ DACE-RS can be used in your project by including it as a Cargo dependency.
 Add this to your `Cargo.toml`:
 
 ```toml
-[build-dependencies]
+[dependencies]
 dace = "0.1"
 ```
 

@@ -1,6 +1,6 @@
 [package]
 name = "dace"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Giovanni Purpura"]
 edition = "2021"
 description = "Rust wrapper of DACE, the Differential Algebra Computational Toolbox."
