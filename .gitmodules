@@ -1,0 +1,3 @@
+[submodule "dacelib"]
+	path = dacecore/dacelib
+	url = https://github.com/dacelib/dace.git
