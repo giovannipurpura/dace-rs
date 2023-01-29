@@ -1,5 +1,6 @@
 use dace::*;
 
+// This requires a LAPACK binding for ndarray-linalg, see the README.
 fn main() {
     DA::init(10, 3);
 

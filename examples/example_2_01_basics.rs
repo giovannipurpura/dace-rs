@@ -50,6 +50,7 @@ fn ex1_2_2(x: &DA, y: &DA) -> DA {
     r.sin() / r
 }
 
+// This requires a LAPACK binding for ndarray-linalg, see the README.
 fn main() {
     DA::init(10, 2);
 

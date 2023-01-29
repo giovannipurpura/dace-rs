@@ -18,8 +18,23 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-dace = "0.1"
+dace = "0.2"
 ```
+
+If you need to use the `AlgebraicVector<DA>::invert()` function,
+you need to include `ndarray-linalg` and specify a LAPACK binding
+(see: https://github.com/rust-ndarray/ndarray-linalg).
+
+Example:
+
+```toml
+[dependencies]
+dace = "0.2"
+ndarray-linalg = { version = "0.16", features = ["openblas-static"] }
+```
+
+This is needed also to run tests, e.g.:
+`cargo test --features=ndarray-linalg/openblas-static`
 
 CMake and a C compiler must be installed in the system to build the DACE Core library.
 
