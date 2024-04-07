@@ -1,6 +1,6 @@
 use crate::dacecore::*;
 use crate::*;
-use impl_ops::*;
+use auto_ops::*;
 pub use ndarray::linalg::Dot;
 use ndarray::prelude::*;
 use ndarray::*;
